@@ -1,13 +1,75 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* ==================Basic settings===================== */
+
+html {
+    font-size: 62.5%;
+    /*standard font-size rem instead of px */
+    box-sizing: border-box;
+    /*better handling margin and padding inside divs */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body,
+#root {
+    margin: 0;
+    height: 100vh;
+}
+
+body,
+input,
+select,
+textarea {
+    font-size: 1.8rem;
+}
+
+
+/* ========================================================= */
+
+.grid-container {
+    display: grid;
+    /* Specifies how to display columns and rows, using named grid items, (the name you declare) */
+    grid-template-areas: "header""main" "footer";
+    /* Specifies the size of the rows in a grid layout */
+    /* 5rem is equal to 10px since of  font-size: 62.5%; */
+    grid-template-rows: 5rem 1fr 10rem;
+    /* Specifies the size of the columns, and how many columns in a grid layout */
+    grid-template-columns: 1fr;
+    height: 100%;
+}
+
+header {
+    /* 	Either specifies a name for the grid item, or this property is a 
+  shorthand property for the grid-row-start, grid-column-start, grid-row-end, 
+  and grid-column-end properties*/
+    grid-area: header;
+    /* background-color: #F94B8A; */
+    background-color: #7209C5;
+    color: #ffffff;
+    display: flex;
+    /* put items center verticaly */
+    align-items: center;
+    padding: 0.6rem;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #140222;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+    /* background-color: #F94B8A; */
+    background-color: #7209C5;
+    color: #ffffff;
+    display: flex;
+    /* put items center horizentaly */
+    justify-content: center;
+    /* put items center verticaly */
+    align-items: center;
 }
