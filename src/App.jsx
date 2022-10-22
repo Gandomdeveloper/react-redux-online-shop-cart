@@ -1,7 +1,18 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import data from "./data.json";
+import Products_List from './components/products-list';
 //feature 1
 
 export default class App extends Component {
+  constructor(){
+    super();
+    this.state = {
+      products : data,
+      size : "",
+      sort : ""
+      
+    }
+  }
   render() {
     return (
       <div className='grid-container'>
@@ -9,7 +20,12 @@ export default class App extends Component {
           <a href="http://www.google.com">React Redux Shopping Card</a>
         </header>
         <main>
-          All Products are here
+          <div className="content">
+            <div className="main">
+              <Products_List products={this.state.products}/>
+              </div>
+            <div className="sidebar">side bar items</div>
+          </div>
 
         </main>
         <footer>
