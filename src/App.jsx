@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import data from "./data.json";
-import Products_List from './components/products-list';
+import Products from './components/products';
 //feature 1
 
 export default class App extends Component {
@@ -22,7 +22,7 @@ export default class App extends Component {
         <main>
           <div className="content">
             <div className="main">
-              <Products_List products={this.state.products}/>
+              <Products products={this.state.products}/>
               </div>
             <div className="sidebar">side bar items</div>
           </div>

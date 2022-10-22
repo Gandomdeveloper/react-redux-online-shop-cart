@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import formatCurrency from '../util'
 
-export default class Products_List extends Component {
+export default class Products extends Component {
   render() {
     return (
       <ul className="products">
