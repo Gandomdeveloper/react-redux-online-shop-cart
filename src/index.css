@@ -1,6 +1,7 @@
 /* ==================Basic settings===================== */
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap") html {
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap");
+html {
     font-size: 62.5%;
     /*standard font-size rem instead of px */
     box-sizing: border-box;
