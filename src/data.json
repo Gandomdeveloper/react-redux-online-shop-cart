@@ -4,7 +4,7 @@
         "image": "/images/wedding-dress-1.jpg",
         "title": "wedding-dress-1",
         "description": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
-        "availableSize": ["XL", "L", "M", "S"],
+        "availableSize": ["XL", "M", "S"],
         "price": 3299
     },
     {
@@ -22,7 +22,7 @@
         "image": "/images/wedding-dress-3.jpg",
         "title": "wedding-dress-3",
         "description": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
-        "availableSize": ["XL", "L", "M", "S"],
+        "availableSize": ["XL", "L", "M"],
         "price": 1799
     },
     {
@@ -31,7 +31,7 @@
         "image": "/images/wedding-dress-4.jpg",
         "title": "wedding-dress-4",
         "description": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
-        "availableSize": ["XL", "L", "M", "S"],
+        "availableSize": ["XL", "L", "M", "S", "XXL"],
         "price": 5499
     },
     {
@@ -40,12 +40,12 @@
         "image": "/images/wedding-dress-5.jpg",
         "title": "wedding-dress-5",
         "description": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
-        "availableSize": ["XL", "L", "M", "S"],
+        "availableSize": ["XL", "L", "M", "S", "XXL"],
         "price": 7299
     },
     {
 
-        "_id": 1,
+        "_id": 6,
         "image": "/images/wedding-dress-6.jpg",
         "title": "wedding-dress-6",
         "description": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
